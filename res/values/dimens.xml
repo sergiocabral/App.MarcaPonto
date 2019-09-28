@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="BordaGeral">15.0dip</dimen>
+    <dimen name="Titulo">22.0dip</dimen>
+    <dimen name="SubTitulo">20.0dip</dimen>
+    <dimen name="Texto">18.0dip</dimen>
+    <dimen name="TextoPequeno">16.0dip</dimen>
+</resources>

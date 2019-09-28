@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="geral_NomeDoSistema">Marca Ponto</string>
+    <string name="geral_EmailDoDesenvolvedor">marcaponto@cabral.srv.br</string>
+    <string name="comum_lblSelecioneACor">Select a color</string>
+    <string name="comum_lblSelecioneACorDica">Click on center to select.</string>
+    <string name="comum_btnSim">Yes</string>
+    <string name="comum_btnNao">No</string>
+    <string name="comum_btnOk">@android:string/ok</string>
+    <string name="comum_btnCopiar">Duplicate</string>
+    <string name="comum_btnExportar">Export</string>
+    <string name="comum_btnGravar">Save</string>
+    <string name="comum_btnVoltar">Back</string>
+    <string name="comum_btnApagar">Erase</string>
+    <string name="comum_btnCancelar">Cancel</string>
+    <string name="comum_btnFechar">Close</string>
+    <string name="comum_btnRenomear">Rename</string>
+    <string name="comum_btnAdicionar">Add</string>
+    <string name="comum_btnSelecionar">Select</string>
+    <string name="comum_msgAlerta">Attention!</string>
+    <string name="comum_msgPergunta">Continue?</string>
+	<string name="comum_msgDefinicaoGravada">Settings successfully saved.</string>	
+    <string name="comum_perfilPadrao">My Times</string>
+    <string name="menu_Principal_Perfil">Profiles</string>
+    <string name="menu_Principal_Configuracoes">Configurations</string>
+    <string name="menu_Principal_Configuracoes_Reset">Reset Configurations</string>
+    <string name="menu_Principal_Definir">Set</string>
+    <string name="menu_Principal_Definir_Periodo">Set range</string>    
+    <string name="menu_Principal_Sobre">About</string>
+    <string name="menu_Principal_Sair">Exit</string>
+    <string name="layoutErro_lblTitulo">Oops! Wow&#8230;\nAre a problem!</string>
+    <string name="layoutErro_lblPressioneHomeParaSair">Press Home button to close application.</string>
+    <string name="layoutMarcarHorario_lblComentarios">Comments</string>
+    <string name="layoutMarcarHorario_lblCor">Click here to\nselect a color</string>
+    <string name="layoutMarcarHorario_msgHorarioRegistrado">Date and time successfully registered.</string>
+    <string name="layoutPrincipal_btnMarcarEntrada">Check\nIN</string>
+    <string name="layoutPrincipal_btnMarcarSaida">Check\nOUT</string>
+    <string name="layoutPrincipal_btnPeriodo">Range: %s</string>
+    <string name="layoutPrincipal_btnPeriodo_Indefinido">Complete</string>
+    <string name="layoutPrincipal_btnPeriodo_Definido" formatted="false">%s to %s</string>
+    <string name="layoutPrincipal_btnPeriodo_Ate">to %s</string>
+    <string name="layoutPrincipal_btnPeriodo_APartir">from %s</string>
+    <string name="layoutConfiguracoesPerfil_lblPerfilSelecionado">Selected profile:</string>
+    <string name="layoutConfiguracoesPerfil_lblCaminhoDosPerfis">Path to save profiles:</string>
+    <string name="layoutConfiguracoesPerfil_lblDescritivoDaAcao">Create profiles to control the time of every aspect of your day to day. Control your working hours, the time spent studying, working, in field service, sleeping, watching TV, etc &#8230;</string>
+    <string name="layoutConfiguracoesPerfil_msgFalhaNomeInvalido">The \"%s\" name for the time\'s profile is invalid.</string>
+    <string name="layoutConfiguracoesPerfil_msgFalhaNomeJaExiste">The \"%s\" time\'s profile already exists.</string>
+    <string name="layoutConfiguracoesPerfil_msgSelecionarSucesso">The \"%s\" time\'s profile was selected.</string>
+    <string name="layoutConfiguracoesPerfil_msgAdicionar">Enter the name to the new time\'s profile:</string>
+    <string name="layoutConfiguracoesPerfil_msgAdicionarSucesso">The \"%s\" time\'s profile was added and selected.</string>
+    <string name="layoutConfiguracoesPerfil_msgRenomear">Enter the new name to \"%s\" time\' profile:</string>
+    <string name="layoutConfiguracoesPerfil_msgRenomearSucesso" formatted="false">The \"%s\" time\'s profile was renamed to \"%s\".</string>
+    <string name="layoutConfiguracoesPerfil_msgApagar">This action will delete the selected \"%s\" time\'s profile. That is irreversible.</string>
+    <string name="layoutConfiguracoesPerfil_msgApagarSucesso">The \"%s\" time\'s profile was deleted.</string>
+    <string name="layoutConfiguracoesPerfil_msgPerfilPadraoRecriado">All time\'s profiles were deleted. A new profile was added as default.</string>
+    <string name="layoutConfiguracoesPerfil_msgCopiar">Enter the name for the new time\'s profile to be a copy of the \"%s\" profile:</string>
+    <string name="layoutConfiguracoesPerfil_msgCopiarSucesso" formatted="false">The \"%s\" time\'s profile was duplicated as \"%s\".</string>
+    <string name="layoutConfiguracoesPerfil_msgCopiarFalha">Could not duplicate time\'s profile.</string>
+    <string name="layoutConfiguracoesPerfil_msgExportar">Enter the path where the \"%s\" time\'s profile will be exported:</string>
+    <string name="layoutConfiguracoesPerfil_msgExportarSucesso" formatted="false">The \"%s\" time\'s profile was exported to \"%s\"</string>
+    <string name="layoutConfiguracoesPerfil_msgExportarFalha">Unable to export the time\'s profile to the path entered.</string>
+    <string name="layoutConfiguracoes_ExibirJanelaSobreAoIniciar_chk">View the welcome screen when starting the application.</string>
+    <string name="layoutConfiguracoes_CaminhoDosDadosEConfiguracoes_lbl">Path where data and settings are saved:</string>
+    <string name="layoutConfiguracoes_CaminhoDosDadosEConfiguracoes_chkPadrao">Use system default path</string>
+    <string name="layoutConfiguracoes_CaminhoDosDadosEConfiguracoes_msgInvalido">The path to record data and configuações is invalid or inaccessible.</string>
+    <string name="layoutConfiguracoes_msgGravar">This action will save the list of configurations reported in the above fields. The operation of the application is based on these definitions.</string>
+    <string name="layoutConfiguracoes_msgGravarSucesso">The settings have been successfully saved.</string>
+    <string name="layoutConfiguracoesReset_btnReset">Reset</string>
+    <string name="layoutConfiguracoesReset_lblDescritivoDaAcao">This action DOES NOT CAUSE LOSS OF DATA that you registered in Marca Ponto. Only the Marca Ponto\'s settings are reset as were the first time you ran it.\n \n 	But pay attention: If you modified the location where Marca Ponto\'s files are stored, you must reconfigure it again. Otherwise, you can not view the data that you have registered.</string>
+    <string name="layoutConfiguracoesReset_msgReset">This action will restore the original settings of the application.</string>
+    <string name="layoutConfiguracoesReset_msgResetSucesso">The original settings are restored.</string>
+    <string name="layoutSobre_lblMensagemDeBoasVindas">It\'s awesome!\nThe Marca Ponto will facilitate their control of schedules.\n</string>
+    <string name="layoutSobre_chkExibirAoIniciar">Show this on start.</string>
+    <string name="layoutSobre_btnIniciar">Start!</string>
+    <string name="layoutSobre_lblDescritivoDaVersao">\tCan you remember about the 1.0 version?\n\tIt\' gone&#8230; Now we even have a new icon!\n\n\tI had some problems to update it for this new version. In fact the problems were concentrated in my Google account, which by the way had to change.\n\n\tIn this version of Marca Ponto I focused on implementing the same functionality from previous version. However, I am already working on implementing the successive versions with the suggestions I have received in the e-mail quoted above.\n\n\tHope you enjoy.\n\tCheers, Sergio Cabral.</string>
+    <string name="layoutDefinirPeriodo_lblPeriodoInicio">Start date</string>
+	<string name="layoutDefinirPeriodo_lblPeriodoFim">End date</string>
+    <string name="erro_CaminhoDosDadosEConfiguracaoNaoEstaAcessivel">The path where the data and settings are saved (%s) is not currently accessible.\n\nMaybe the device has been connected to the computer and USB mass storage is enabled. If this is the case, disable the USB mass storage.</string>
+    <string name="erro_FalhaAoSelecionarPerfil">The profile (%s) could not be loaded.\n\nMaybe the device has been connected to the computer and USB mass storage is enabled. If this is the case, disable the USB mass storage.</string>
+    <string name="erro_FalhaAoAdicionarPerfil">The profile (%s) could not be created.\n\nMaybe the device has been connected to the computer and USB mass storage is enabled. If this is the case, disable the USB mass storage.</string>
+</resources>

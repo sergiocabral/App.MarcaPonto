@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AbsoluteLayout android:background="@layout/fundo_escuro" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/BordaGeral" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip">
+                <ImageView android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/menu_principal_perfil" />
+                <TextView android:textSize="@dimen/Titulo" android:textStyle="bold" android:textColor="@color/LayoutEscuro_Titulo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/menu_Principal_Perfil" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/Texto" android:textColor="@color/LayoutEscuro_Texto" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:text="@string/layoutConfiguracoesPerfil_lblDescritivoDaAcao" />
+            <TextView android:textSize="@dimen/SubTitulo" android:textColor="@color/LayoutEscuro_Titulo" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/layoutConfiguracoesPerfil_lblPerfilSelecionado" />
+            <TextView android:textSize="@dimen/Titulo" android:textStyle="bold" android:textColor="@color/LayoutEscuro_TextoDestacado" android:gravity="center" android:id="@id/lblPerfilSelecionado" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="\???" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="1.0dip">
+                <Button android:textSize="@dimen/Texto" android:textStyle="bold" android:id="@id/btnSelecionar" android:layout_width="140.0dip" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" android:text="@string/comum_btnSelecionar" android:drawableLeft="@drawable/menu_principal_perfil" />
+                <Button android:textSize="@dimen/Texto" android:textStyle="bold" android:id="@id/btnAdicionar" android:layout_width="140.0dip" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:text="@string/comum_btnAdicionar" android:drawableLeft="@drawable/geral_adicionar" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip">
+                <Button android:textSize="@dimen/Texto" android:textStyle="bold" android:id="@id/btnRenomear" android:layout_width="140.0dip" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" android:text="@string/comum_btnRenomear" android:drawableLeft="@drawable/geral_editar" />
+                <Button android:textSize="@dimen/Texto" android:textStyle="bold" android:id="@id/btnApagar" android:layout_width="140.0dip" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:text="@string/comum_btnApagar" android:drawableLeft="@drawable/geral_excluir" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="30.0dip">
+                <Button android:textSize="@dimen/Texto" android:textStyle="bold" android:id="@id/btnCopiar" android:layout_width="140.0dip" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" android:text="@string/comum_btnCopiar" android:drawableLeft="@drawable/geral_copiar" />
+                <Button android:textSize="@dimen/Texto" android:textStyle="bold" android:id="@id/btnExportar" android:layout_width="140.0dip" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:text="@string/comum_btnExportar" android:drawableLeft="@drawable/geral_exportar" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/TextoPequeno" android:textColor="@color/LayoutEscuro_TextoSemDestaque" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/layoutConfiguracoesPerfil_lblCaminhoDosPerfis" />
+            <TextView android:textSize="@dimen/TextoPequeno" android:textColor="@color/LayoutEscuro_Texto" android:gravity="center" android:id="@id/lblCaminhoDosPerfis" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="\???" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+                <Button android:id="@id/btnVoltar" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/comum_btnVoltar" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</AbsoluteLayout>
