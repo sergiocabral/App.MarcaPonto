@@ -1,81 +1,91 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="geral_NomeDoSistema">Marca Ponto</string>
-    <string name="geral_EmailDoDesenvolvedor">marcaponto@cabral.srv.br</string>
-    <string name="comum_lblSelecioneACor">Selecione um cor</string>
-    <string name="comum_lblSelecioneACorDica">Clique no centro para selecionar.</string>
-    <string name="comum_btnSim">Sim</string>
-    <string name="comum_btnNao">Não</string>
-    <string name="comum_btnOk">@android:string/ok</string>
-    <string name="comum_btnCopiar">Duplicar</string>
-    <string name="comum_btnExportar">Exportar</string>
-    <string name="comum_btnGravar">Gravar</string>
-    <string name="comum_btnVoltar">Voltar</string>
-    <string name="comum_btnApagar">Apagar</string>
-    <string name="comum_btnCancelar">Cancelar</string>
-    <string name="comum_btnFechar">Fechar</string>
-    <string name="comum_btnRenomear">Renomear</string>
-    <string name="comum_btnAdicionar">Adicionar</string>
-    <string name="comum_btnSelecionar">Selecionar</string>
-    <string name="comum_msgAlerta">Atenção!</string>
-    <string name="comum_msgPergunta">Prosseguir?</string>
-	<string name="comum_msgDefinicaoGravada">Definições gravadas com sucesso.</string>	
-    <string name="comum_perfilPadrao">Meus Horários</string>
-    <string name="menu_Principal_Perfil">Perfis</string>
-    <string name="menu_Principal_Definir">Definir</string>
-    <string name="menu_Principal_Definir_Periodo">Período de visualização</string>    
-    <string name="menu_Principal_Configuracoes">Configurações</string>
-    <string name="menu_Principal_Configuracoes_Reset">Restaurar Configurações</string>
-    <string name="menu_Principal_Sobre">Sobre</string>
-    <string name="menu_Principal_Sair">Sair</string>
-    <string name="layoutErro_lblTitulo">Ih! Caramba&#8230;\nTemos um problema!</string>
-    <string name="layoutErro_lblPressioneHomeParaSair">Pressione a tecla Home para fechar o aplicativo.</string>
-    <string name="layoutMarcarHorario_lblComentarios">Comentários</string>
-    <string name="layoutMarcarHorario_lblCor">Clique aqui para\nselecionar uma cor</string>
-    <string name="layoutMarcarHorario_msgHorarioRegistrado">Horário registrado com sucesso.</string>
-    <string name="layoutPrincipal_btnMarcarEntrada">Marcar\nENTRADA</string>
-    <string name="layoutPrincipal_btnMarcarSaida">Marcar\nSAÍDA</string>
-    <string name="layoutPrincipal_btnPeriodo">Período: %s</string>
-    <string name="layoutPrincipal_btnPeriodo_Indefinido">Completo</string>
-    <string name="layoutPrincipal_btnPeriodo_Definido" formatted="false">%s até %s</string>
-    <string name="layoutPrincipal_btnPeriodo_Ate">até %s</string>
-    <string name="layoutPrincipal_btnPeriodo_APartir">a partir de %s</string>
-    <string name="layoutConfiguracoesPerfil_lblPerfilSelecionado">Perfil selecionado:</string>
-    <string name="layoutConfiguracoesPerfil_lblCaminhoDosPerfis">Caminho onde os perfis são gravados:</string>
-    <string name="layoutConfiguracoesPerfil_lblDescritivoDaAcao">Crie perfis para controlar o tempo de cada aspecto do seu dia a dia. Controle seu horário de trabalho, quanto tempo gasta estudando, malhando, no serviço de campo, dormindo, vendo TV, etc&#8230;</string>
-    <string name="layoutConfiguracoesPerfil_msgFalhaNomeInvalido">O nome \"%s\" para o perfil de horários é inválido.</string>
-    <string name="layoutConfiguracoesPerfil_msgFalhaNomeJaExiste">O perfil de horários \"%s\" já existe.</string>
-    <string name="layoutConfiguracoesPerfil_msgSelecionarSucesso">O perfil de horários \"%s\" foi selecionado.</string>
-    <string name="layoutConfiguracoesPerfil_msgAdicionar">Informe o nome para o novo perfil de horários que será adicionado:</string>
-    <string name="layoutConfiguracoesPerfil_msgAdicionarSucesso">O perfil de horários \"%s\" foi adicionado e selecionado.</string>
-    <string name="layoutConfiguracoesPerfil_msgRenomear">Informe o novo nome para o perfil de horários \"%s\":</string>
-    <string name="layoutConfiguracoesPerfil_msgRenomearSucesso" formatted="false">O perfil de horários \"%s\" teve seu nome alterado para \"%s\".</string>
-    <string name="layoutConfiguracoesPerfil_msgApagar">Esta ação irá apagar o perfil de horários \"%s\". Isso é irreversível.</string>
-    <string name="layoutConfiguracoesPerfil_msgApagarSucesso">O perfil de horários \"%s\" foi apagado.</string>
-    <string name="layoutConfiguracoesPerfil_msgPerfilPadraoRecriado">Todos os perfis de horários foram apagados. Um novo perfil foi adicionado como padrão.</string>
-    <string name="layoutConfiguracoesPerfil_msgCopiar">Informe o nome para o novo perfil de horários que será uma réplica do perfil \"%s\":</string>
-    <string name="layoutConfiguracoesPerfil_msgCopiarSucesso" formatted="false">O perfil de horários \"%s\" foi duplicado como \"%s\".</string>
-    <string name="layoutConfiguracoesPerfil_msgCopiarFalha">Não foi possível duplicar perfil de horários.</string>
-    <string name="layoutConfiguracoesPerfil_msgExportar">Informe o caminho para onde será exportado o perfil de horários \"%s\":</string>
-    <string name="layoutConfiguracoesPerfil_msgExportarSucesso" formatted="false">O perfil de horários \"%s\" foi exportado para \"%s\".</string>
-    <string name="layoutConfiguracoesPerfil_msgExportarFalha">Não foi possível exportar o perfil de horários para o caminho informado.</string>
-    <string name="layoutConfiguracoes_ExibirJanelaSobreAoIniciar_chk">Exibir tela de boas vindas quando iniciar o aplicativo.</string>
-    <string name="layoutConfiguracoes_CaminhoDosDadosEConfiguracoes_lbl">Caminho onde os dados e as configurações são gravados:</string>
-    <string name="layoutConfiguracoes_CaminhoDosDadosEConfiguracoes_chkPadrao">Usar caminho padrão do sistema</string>
-    <string name="layoutConfiguracoes_CaminhoDosDadosEConfiguracoes_msgInvalido">O caminho para a gravação dos dados e configuações é inválido ou está inacessível.</string>
-    <string name="layoutConfiguracoes_msgGravar">Esta ação vai gravar a lista de configurações informada nos campos acima. O funcionamento do aplicativo ocorre baseado nestas definições.</string>
-    <string name="layoutConfiguracoes_msgGravarSucesso">As configurações foram gravadas com sucesso.</string>
-    <string name="layoutConfiguracoesReset_btnReset">Restaurar</string>
-    <string name="layoutConfiguracoesReset_lblDescritivoDaAcao">Esta ação NÃO CAUSARÁ A PERDA DOS DADOS que você cadastrou no Marca Ponto. Apenas serão redefinidas as configurações do Marca Ponto assim como eram na primeira vez em que você executou ele.\n \n 	Apenas um ponto de atenção: Caso você tenha modificado o local onde são guardados os arquivos do Marca Ponto, terá de reconfigurar isto novamente. Do contrário, não conseguirá visualizar os dados que você cadastrou.</string>
-    <string name="layoutConfiguracoesReset_msgReset">Esta ação vai restaurar as configurações originais do aplicativo.</string>
-    <string name="layoutConfiguracoesReset_msgResetSucesso">As configurações originais foram restauradas.</string>
-    <string name="layoutSobre_lblMensagemDeBoasVindas">É demais!\nO Marca Ponto vai facilitar seu controle de horários.\n</string>
-    <string name="layoutSobre_chkExibirAoIniciar">Exibir isto ao iniciar.</string>
-    <string name="layoutSobre_btnIniciar">Iniciar!</string>
-    <string name="layoutSobre_lblDescritivoDaVersao" formatted="false">\tLembram-se da versão 1.0?\n\tEla já se foi&#8230; Agora temos até mesmo um novo ícone!\n\n\tTive alguns problemas para atualizá-la para esta nova versão. Na verdade os problemas se concentravam na minha conta do Google, que por sinal tive que mudar.\n\n\tNesta versão do Marca Ponto me concentrei em implementar as mesma funcionalidades da versão anterior. Porém, já estou trabalhando nas versões sucessivas implementando as sugestões que tenho recebido no e-mail citado mais acima.\n\n\tEspero que gostem.\n\tAbraços, Sergio Cabral.</string>
-    <string name="layoutDefinirPeriodo_lblPeriodoInicio">Período inicial</string>
-	<string name="layoutDefinirPeriodo_lblPeriodoFim">Período final</string>
-    <string name="erro_CaminhoDosDadosEConfiguracaoNaoEstaAcessivel">O caminho onde os dados e as configurações são gravados (%s) não está acessível no momento.\n\nTalvez o aparelho esteja conectado ao computador e o armazenamento em massa USB esteja ativado. Se este for o caso, desative o armazenamento em massa USB.</string>
-    <string name="erro_FalhaAoSelecionarPerfil">Não foi possível carregar o perfil %s.\n\nTalvez o aparelho esteja conectado ao computador e o armazenamento em massa USB esteja ativado. Se este for o caso, desative o armazenamento em massa USB.</string>
-    <string name="erro_FalhaAoAdicionarPerfil">Não foi possível criar o perfil %s.\n\nTalvez o aparelho esteja conectado ao computador e o armazenamento em massa USB esteja ativado. Se este for o caso, desative o armazenamento em massa USB.</string>
+
+	<string name="JanelaPrincipal">Marca Ponto</string>
+	<string name="JanelaPrincipal_lblHoras" formatted="false">Horas
+		trabalhadas: %s\nHoras trabalhadas válidas: %s\nSaldo de horas: %s
+	</string>
+	<string name="JanelaPrincipal_lblPeriodo" formatted="false">Período: %s
+	</string>
+	<string name="JanelaPrincipal_btnHora1">Entrada\nManhã</string>
+	<string name="JanelaPrincipal_btnHora2">Saída\nManhã</string>
+	<string name="JanelaPrincipal_btnHora3">Entrada\nTarde</string>
+	<string name="JanelaPrincipal_btnHora4">Saída\nTarde</string>
+	<string name="JanelaPrincipal_msgLblPeriodoInicialEFinal"
+		formatted="false">De %s até %s</string>
+	<string name="JanelaPrincipal_msgLblPeriodoInicial" formatted="false">Desde
+		%s até o momento</string>
+	<string name="JanelaPrincipal_msgLblPeriodoFinal" formatted="false">Desde
+		o princípio até %s</string>
+	<string name="JanelaPrincipal_msgLblPeriodoCompleto" formatted="false">Completo
+	</string>
+	<string name="JanelaPrincipal_msgBoasVindas">
+		Esta é a versão 1.7. O layout foi corrigido para smartphones com telas maiores.
+		Uma nova versão está em desenvolvimento (sei que está demorando, mais está indo).
+		Que recursos devem ser incluído? Envie sugestões para
+		marcaponto@cabral.srv.br\n\nObrigado pela sua ajuda. Para apoiar o
+		desenvolvimento divulgue a aplicação.
+	</string>
+	<string name="JanelaConfiguracaoDasHoras">Configuração das Horas</string>
+	<string name="JanelaConfiguracaoDasHoras_lblHoraEntradaMenor">Horário mínimo para entrada:</string>
+	<string name="JanelaConfiguracaoDasHoras_lblHoraEntradaMaior">Horário máximo para saída:</string>
+	<string name="JanelaConfiguracaoDasHoras_lblHoraAlmoco">Horário mínimo para almoço:</string>
+	<string name="JanelaConfiguracaoDasHoras_lblHoraJornada">Horas da jornada de trabalho:</string>
+	<string name="JanelaConfiguracaoDasHoras_msgHoraMenorEMaior">O horário mínimo deve ser menor que o horário
+		máximo.</string>
+	<string name="JanelaConfiguracaoDasHoras_msgHoraAlmocoMaior">O horário de almoço deve ser menor que a jornada de
+		trabalho.</string>
+	<string name="JanelaConfiguracaoDasHoras_msgHoraJornadaImpossivel">O horário mínimo para entrada e o horário máximo
+		para saída não permitem cumprir a jornada de trabalho.</string>
+	<string name="JanelaConfiguracaoDoPeriodo">Configuração do Período</string>
+	<string name="JanelaConfiguracaoDoPeriodo_lblPeriodoInicial">Definir um Período Inicial</string>
+	<string name="JanelaConfiguracaoDoPeriodo_lblPeriodoFinal">Definir um Período Final</string>
+	<string name="JanelaConfiguracaoDoPeriodo_msgDataInvalida">O período inicial deve ser menor que o período
+		final.</string>
+	<string name="JanelaRegistrarHora">Registrar horário</string>
+	<string name="JanelaRegistrarHora_lblHora">Informe o horário para...</string>
+	<string name="JanelaRegistrarHoraDoDia">Registrar horários do dia</string>
+	<string name="JanelaRegistrarHoraDoDia_lblData">Registrar estes horários para esta data</string>
+	<string name="JanelaRegistrarHoraDoDia_msgPrecisaOrdemCronologica">Os horários precisam estar em ordem cronológica.
+	</string>
+	<string name="JanelaRegistrarHoraDoDia_msgDataJaExiste"
+		formatted="false">Já existe horários cadastrados para o dia %s. Deseja
+		sobreescrever?</string>
+	<string name="JanelaRegistrarHoraDoDia_msgExcluirConfirmar"
+		formatted="false">Deseja apagar os horários cadastrados para o dia %s?
+	</string>
+
+	<string name="Geral_btnRegistrar">Registrar</string>
+	<string name="Geral_btnSalvar">Salvar</string>
+	<string name="Geral_btnApagar">Apagar</string>
+	<string name="Geral_btnCancelar">Cancelar</string>
+	<string name="Geral_btnSim">Sim</string>
+	<string name="Geral_btnNao">Não</string>
+
+	<string-array name="Geral_ListaHorasDoDia">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+		<item>24</item>
+	</string-array>
 </resources>

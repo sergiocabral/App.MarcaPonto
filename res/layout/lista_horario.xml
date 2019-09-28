@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:gravity="center" android:paddingTop="5dp"
+	android:paddingBottom="5dp">
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:gravity="center">
+
+		<TextView android:id="@+id/lblData" android:text="00/00/0000\nSemana"
+			android:layout_width="75sp" android:layout_height="40sp"
+			android:textSize="13sp" android:layout_marginLeft="0dp"
+			android:layout_marginRight="2dp" android:paddingLeft="2dp"
+			android:paddingTop="2dp" android:paddingRight="2dp"
+			android:paddingBottom="2dp" android:background="#444444"
+			android:textColor="#7CA4FF" android:gravity="center">
+		</TextView>
+
+		<TextView android:id="@+id/lblHora1" android:text="00:00"
+			android:layout_width="40sp" android:layout_height="40sp"
+			android:textSize="13sp" android:layout_marginLeft="2dp"
+			android:layout_marginRight="2dp" android:paddingLeft="2dp"
+			android:paddingTop="2dp" android:paddingRight="2dp"
+			android:paddingBottom="2dp" android:background="#444444"
+			android:gravity="center">
+		</TextView>
+
+		<TextView android:id="@+id/lblHora2" android:text="00:00"
+			android:layout_width="40sp" android:layout_height="40sp"
+			android:textSize="13sp" android:layout_marginLeft="2dp"
+			android:layout_marginRight="2dp" android:paddingLeft="2dp"
+			android:paddingTop="2dp" android:paddingRight="2dp"
+			android:paddingBottom="2dp" android:background="#444444"
+			android:gravity="center">
+		</TextView>
+
+		<TextView android:id="@+id/lblHora3" android:text="00:00"
+			android:layout_width="40sp" android:layout_height="40sp"
+			android:textSize="13sp" android:layout_marginLeft="2dp"
+			android:layout_marginRight="2dp" android:paddingLeft="2dp"
+			android:paddingTop="2dp" android:paddingRight="2dp"
+			android:paddingBottom="2dp" android:background="#444444"
+			android:gravity="center">
+		</TextView>
+
+		<TextView android:id="@+id/lblHora4" android:text="00:00"
+			android:layout_width="40sp" android:layout_height="40sp"
+			android:textSize="13sp" android:layout_marginLeft="2dp"
+			android:layout_marginRight="2dp" android:paddingLeft="2dp"
+			android:paddingTop="2dp" android:paddingRight="2dp"
+			android:paddingBottom="2dp" android:background="#444444"
+			android:gravity="center">
+		</TextView>
+
+		<TextView android:id="@+id/lblSaldo" android:text="+ 000:00"
+			android:layout_width="60sp" android:layout_height="40sp"
+			android:textSize="13sp" android:layout_marginLeft="2dp"
+			android:layout_marginRight="0dp" android:paddingLeft="2dp"
+			android:paddingTop="2dp" android:paddingRight="2dp"
+			android:paddingBottom="2dp" android:background="#444444"
+			android:textColor="#0080FF" android:gravity="center">
+		</TextView>
+
+	</LinearLayout>
+
+</LinearLayout>

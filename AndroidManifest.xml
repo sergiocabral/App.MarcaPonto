@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="br.srv.cabral.marcaponto"
-      android:versionName="1.1" android:versionCode="2">
-    <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="15" />
-	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <application android:icon="@drawable/logotipo48x48" android:label="@string/geral_NomeDoSistema">
-        <activity android:label="@string/geral_NomeDoSistema" android:name=".janelas.JanelaInicial">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".janelas.JanelaGenerica"></activity>
-    </application>
+	package="br.srv.cabral.marcapontolite" android:versionCode="4"
+	android:versionName="1.7">
+	<uses-sdk android:minSdkVersion="3" android:targetSdkVersion="15" />
+
+	<application android:icon="@drawable/icone" android:label="@string/JanelaPrincipal">
+		<activity android:label="@string/JanelaPrincipal"
+			android:screenOrientation="portrait" android:name=".janelas.Principal">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:label="@string/JanelaConfiguracaoDasHoras"
+			android:screenOrientation="portrait" android:name=".janelas.ConfiguracaoDasHoras">
+		</activity>
+		<activity android:label="@string/JanelaConfiguracaoDoPeriodo"
+			android:screenOrientation="portrait" android:name=".janelas.ConfiguracaoDoPeriodo">
+		</activity>
+		<activity android:label="@string/JanelaRegistrarHora"
+			android:screenOrientation="portrait" android:name=".janelas.RegistrarHora">
+		</activity>
+		<activity android:label="@string/JanelaRegistrarHoraDoDia"
+			android:screenOrientation="portrait" android:name=".janelas.RegistrarHoraDoDia">
+		</activity>
+		<provider android:authorities="br.srv.cabral.marcapontolite"
+			android:name=".dados.Provider" />
+	</application>
 </manifest>
