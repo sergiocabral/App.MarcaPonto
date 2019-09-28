@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AbsoluteLayout android:background="@layout/fundo_escuro" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/BordaGeral" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip">
+                <ImageView android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/menu_principal_configuracoes" />
+                <TextView android:textSize="@dimen/Titulo" android:textStyle="bold" android:textColor="@color/LayoutEscuro_Titulo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/menu_Principal_Configuracoes" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@layout/fundo_secao" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <CheckBox android:textSize="@dimen/Texto" android:id="@id/chkExibirJanelaSobreAoIniciar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/layoutConfiguracoes_ExibirJanelaSobreAoIniciar_chk" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@layout/fundo_secao" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textSize="@dimen/Texto" android:textColor="@color/LayoutEscuro_Texto" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/layoutConfiguracoes_CaminhoDosDadosEConfiguracoes_lbl" />
+                <EditText android:textSize="@dimen/Texto" android:id="@id/txtCaminhoDosDadosEConfiguracoes" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <CheckBox android:textSize="@dimen/Texto" android:id="@id/chkCaminhoDosDadosEConfiguracoesPadrao" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/layoutConfiguracoes_CaminhoDosDadosEConfiguracoes_chkPadrao" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+                <Button android:id="@id/btnVoltar" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="@string/comum_btnCancelar" />
+                <Button android:id="@id/btnGravar" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/comum_btnGravar" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</AbsoluteLayout>

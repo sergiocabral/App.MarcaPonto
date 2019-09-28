@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/menu_principal_perfil" android:id="@id/menuPrincipalPerfil" android:title="@string/menu_Principal_Perfil" />
+    <item android:icon="@drawable/menu_principal_definir" android:title="@string/menu_Principal_Definir">
+        <menu>
+            <item android:icon="@drawable/menu_principal_definir_periodo" android:id="@id/menuPrincipalDefinirPeriodo" android:title="@string/menu_Principal_Definir_Periodo" />
+        </menu>
+    </item>
+    <item android:icon="@drawable/menu_principal_configuracoes" android:title="@string/menu_Principal_Configuracoes">
+        <menu>
+            <item android:icon="@drawable/menu_principal_configuracoes" android:id="@id/menuPrincipalConfiguracoes" android:title="@string/menu_Principal_Configuracoes" />
+            <item android:icon="@drawable/menu_principal_configuracoes_reset" android:id="@id/menuPrincipalConfiguracoesReset" android:title="@string/menu_Principal_Configuracoes_Reset" />
+        </menu>
+    </item>
+    <item android:icon="@drawable/menu_principal_sobre" android:id="@id/menuPrincipalSobre" android:title="@string/menu_Principal_Sobre" />
+</menu>

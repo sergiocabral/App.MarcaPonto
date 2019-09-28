@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AbsoluteLayout android:background="@layout/fundo_escuro" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="@dimen/BordaGeral" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@id/btnMarcarEntrada"
+                    android:layout_width="120.0dip"
+                    android:layout_height="120.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:drawableTop="@drawable/icone_marcar_entrada"
+                    android:gravity="center"
+                    android:paddingTop="20.0dip"
+                    android:text="@string/layoutPrincipal_btnMarcarEntrada"
+                    android:textSize="@dimen/Texto"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@id/btnMarcarSaida"
+                    android:layout_width="120.0dip"
+                    android:layout_height="120.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:drawableTop="@drawable/icone_marcar_saida"
+                    android:gravity="center"
+                    android:paddingTop="20.0dip"
+                    android:text="@string/layoutPrincipal_btnMarcarSaida"
+                    android:textSize="@dimen/Texto"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@id/btnPeriodo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dip"
+                android:background="@android:color/transparent"
+                android:textColor="@color/click_layout_escuro"
+                android:textSize="@dimen/TextoPequeno"
+                android:text="@string/layoutPrincipal_btnPeriodo" />
+
+            <ListView
+                android:id="@id/lstHorarios"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3.33" />
+        </LinearLayout>
+
+    </LinearLayout>
+</AbsoluteLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AbsoluteLayout android:background="@layout/fundo_escuro" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/BordaGeral" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip">
+                <ImageView android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/icone_erro" />
+                <TextView android:textSize="@dimen/Titulo" android:textStyle="bold" android:textColor="@color/LayoutEscuro_Titulo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/layoutErro_lblTitulo" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@layout/fundo_secao" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textSize="@dimen/Texto" android:textStyle="bold" android:textColor="@color/LayoutEscuro_Texto" android:gravity="center" android:id="@id/lblMensagem" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+                <Button android:id="@id/btnVoltar" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/comum_btnVoltar" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/TextoPequeno" android:textColor="@color/LayoutEscuro_TextoSemDestaque" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/layoutErro_lblPressioneHomeParaSair" />
+        </LinearLayout>
+    </ScrollView>
+</AbsoluteLayout>
